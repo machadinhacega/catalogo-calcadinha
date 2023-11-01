@@ -1,0 +1,56 @@
+:root{
+    --corPrimeira: #006475;
+    --corSegunda: #ec6918;
+    --corTerceira: #eeb400;
+    --corQuarta: #7e211c;
+}
+
+@font-face {
+    font-family: Calcadinha;
+    src: url(./black-mango-bold.ttf);
+}
+
+.fontCalcadinha{
+    font-family: Calcadinha;
+}
+
+.bg-calcadinhaAzul{
+    background: var(--corPrimeira);
+}
+
+
+.text-corPrimeira{
+    color: var(--corPrimeira) !important; 
+}
+
+.text-corSegunda{
+    color: var(--corSegunda) !important;
+}
+
+.text-corTerceira{
+    color: var(--corTerceira) !important;
+}
+
+.text-corQuarta{
+    color: var(--corQuarta) !important;
+}
+
+
+
+.btn-active{
+    background-color: var(--corPrimeira);
+    color: #ffF;
+}
+
+
+
+
+@media screen and (min-width: 600px) {
+    body{
+        background-image: url(./img/bg.png);
+        /* background-color: #000d1c; */
+    }
+    /* .text-corPrimeira{
+        color: #e6e6e6 !important; 
+    } */
+  }

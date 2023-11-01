@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listar Produtos</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./assets/style.css">
+    
+
+</head>
+
+<body>
+    <header >
+        <div class="container bg-calcadinhaAzul text-white text-center py-3 col-lg-5 mt-lg-5 ">
+            <h1 class="fontCalcadinha">Calçadinha</h1>
+        </div>
+    </header>
+
+
+    <main class= "w-100" >
+        <div class="container mt-5 col-lg-5 text-corPrimeira">
+            <h2>Cadastrar Produtos</h2>
+            <p>Cadastre os produtos abaixo</p>
+        </div>
+
+
+
+        <div class="container col-lg-5 text-corPrimeira">
+            
+            <div class="mb-2">
+                <button onclick="catalogo.formPetisco()" id="btn-petisco"
+                class="btn btn-outline-secondary">
+                Petisco</button>
+                <button onclick="catalogo.formBebida()" id="btn-bebida"
+                class="btn btn-outline-secondary">
+                Bebida</button>
+            </div>
+
+            <div class="d-grid mb-3">
+                <label for="nomeProduto">Nome</label>
+                <input type="text" name="nomeProduto" id="nomeProduto" placeholder="Nome do produto">
+            </div>
+            <div class="d-grid mb-3">
+                <label for="descProduto">Descrição</label>
+                <input type="text" name="descProduto" id="descProduto" placeholder="Descrição do produto">
+            </div>
+            <div class="d-grid mb-3">
+                <label for="valorProduto">Valor</label>
+                <input type="number" name="valorProduto" id="valorProduto" placeholder="Valor do produto">
+            </div>
+            <div class="d-grid mb-3">
+                <label for="imgProduto">URL da Imagem</label>
+                <input type="url" name="imgProduto" id="imgProduto" placeholder="coloque uma URL">
+            </div>
+            <div class="my-4">
+                <button onclick="catalogo.salvar()" class="btn btn-outline-secondary" id="btn-save">Salvar</button>
+                <button onclick="catalogo.limparCampos()" class="btn btn-outline-secondary" >Cancelar</button>
+            </div>
+        </div>
+
+        
+
+        <div class="container col-lg-5">
+            <table class="table table-striped ">
+                <thead>
+                    <tr>
+                        <th class="text-corPrimeira">Id</th>
+                        <th class="text-corPrimeira">Nome</th>
+                        <th class="text-corPrimeira">Desc</th>
+                        <th class="text-corPrimeira">Valor</th>
+                        <th class="text-corPrimeira">Imagem</th>
+                        <th class="text-corPrimeira">Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                </tbody>
+            </table>
+        </div>
+    
+        
+
+        <!-- <div class="py-5"></div>
+        <div class="container mt-5 col-lg-5 text-corPrimeira">
+            <h2>Site Cliente</h2>
+            <a class="btn btn-outline-secondary" href="./client.html">Acesse o site do cliente</a>
+        </div> -->
+
+
+    </main>
+    
+
+
+
+    <footer></footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+</body>
+
+
+
+
+
+</html>
