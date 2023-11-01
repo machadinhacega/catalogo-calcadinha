@@ -59,4 +59,6 @@ Contribuições para este projeto são bem-vindas. Você pode fazer um fork do r
 Adicionar uma comunicação com o backend para guardar os dados cadastrados.
 
 ---
-Obrigada pela atenção!
+#### Obrigada pela atenção e confira o resultado no botão abaixo:
+
+[<img src='https://github.com/machadinhacega/website_falai/raw/develop/images/resultado-botao-repositorio.png' alt='botao ver projeto' height='40'>](https://machadinhacega.github.io/catalogo-calcadinha/) 
