@@ -1,5 +1,8 @@
 # Calçadinha - Catálogo de Produtos
 
+
+![Screenshot](screenshot.png)
+
 Bem-vindo ao Calçadinha, uma aplicação web para gerenciar e listar produtos, incluindo petiscos e bebidas. Essa aplicação foi resultado do módulo Programação Orientada à Objeto, visto no programa Santander Coders 2023, uma parceria Ada e Santander.
 
 ## Sumário
@@ -58,7 +61,7 @@ Contribuições para este projeto são bem-vindas. Você pode fazer um fork do r
 
 Adicionar uma comunicação com o backend para guardar os dados cadastrados.
 
----
-#### Obrigada pela atenção e confira o resultado no botão abaixo:
+# 
+### Obrigada pela atenção e confira o resultado no botão abaixo:
 
-[<img src='https://github.com/machadinhacega/website_falai/raw/develop/images/resultado-botao-repositorio.png' alt='botao ver projeto' height='40'>](https://machadinhacega.github.io/catalogo-calcadinha/) 
+[<img src='verProjeto.png' alt='botao ver projeto' height='40'>](https://machadinhacega.github.io/catalogo-calcadinha/) 
